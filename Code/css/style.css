@@ -1,0 +1,56 @@
+html,body{
+    height:100%;
+}
+
+.main-navbar{
+    list-style-type:none;
+    display:flex;
+    padding:0px;
+    margin:0px;
+    
+}
+
+
+.navbar-flex{
+    display:flex;
+}
+
+
+#main-navbar-wrapper{
+    background: linear-gradient(45deg, red, blue);
+}
+
+.navbar-block{
+    flex:1;
+}
+
+.navbar-link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px;
+    width:40px;
+    border: solid black 1px;
+}
+
+.navbar-item:hover{
+    animation: shadowbackground 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shadowbackground{
+    from{
+        background-color: rbga(255,255,255,0);
+    }
+    to{
+        background-color:red;
+    }
+}
+
+#main-navbar-left{
+    justify-content:left;
+}
+
+#main-navbar-right{
+    justify-content:right;
+}
