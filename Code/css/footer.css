@@ -4,7 +4,20 @@
     margin:0px;
     display:flex;
     justify-content:space-evenly;
+    
 
+}
+#footer-wrapper{
+    background: linear-gradient(45deg, red,blue);
+}
+
+.footer-item{
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-family:cursive;
 }
 
 footer{
@@ -12,4 +25,11 @@ footer{
     left:0;
     bottom:0;
     right:0;
+}
+
+div#maker_name{
+    color:white;
+    display:flex;
+    justify-content:center;
+    font-family:cursive;
 }
