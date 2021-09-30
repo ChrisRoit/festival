@@ -1,0 +1,15 @@
+#footer-bar{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    display:flex;
+    justify-content:space-evenly;
+
+}
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    right:0;
+}
