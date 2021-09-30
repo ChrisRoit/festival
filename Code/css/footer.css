@@ -1,0 +1,43 @@
+#footer-bar{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    display:flex;
+    justify-content:left;
+    
+
+}
+#footer-wrapper{
+    background: linear-gradient(45deg,#dc2430, #7b4397);
+}
+
+.footer-item{
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-family:cursive;
+}
+
+.footer-list{
+    list-style-type:none;
+}
+
+footer{
+    position:fixed;
+    margin-left:5px;
+    margin-right:5px;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    
+}
+
+div#maker_name{
+    color:white;
+    display:flex;
+    justify-content:center;
+    font-family:cursive;
+}
