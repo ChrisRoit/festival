@@ -18,19 +18,19 @@
                 <form action="#" method="POST">
                     <label>Naam</label>
                     <div>
-                        <input type="text" name="name" required/>
+                        <input class="standard-input" type="text" name="name" required/>
                     </div>              
                     <label>Adres</label>
                     <div>
-                        <input type="text" name="address" required />
+                        <input class="standard-input" type="text" name="address" required />
                     </div>
                     <label>Email</label>
                     <div>
-                        <input type="email" name="email" required />
+                        <input class="standard-input" type="email" name="email" required />
                     </div>
                     <label>Aantal Kaartjes</label>
                     <div>
-                        <input type="number" name="amount" reqruired />
+                        <input class="standard-input" type="number" name="amount" reqruired />
                     </div>
                     <div>
                         <?php 
