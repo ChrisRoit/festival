@@ -55,15 +55,14 @@ main{
 
 
 .custom-jumbotron{
-    background-color:#FF5200;
+    background-color:#FA9905;
     border: #FF5200 solid 1px;
     width: 50%;
-    margin-left:50%;
-
+    margin-left: 50%;
+    margin-top: 150px;
     border-radius: 25px;
-    
-    transform:translateX(-50%);
-
+    padding: 30px;
+    transform: translateX(-50%);
 }
 
 .jumbotron-wrapper{
