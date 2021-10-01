@@ -13,7 +13,7 @@
         <header>
             <?php include "includes/navbar.php"; ?>
         </header>
-        <main>
+       
             <section id="formulier-wrapper">
                 <form action="#" method="POST">
                     <label>Naam</label>
@@ -41,11 +41,11 @@
                         ?>
                     </div>
                     <div>
-                        <button type="submit">Koop</button>
+                        <button class="custom-button" type="submit">Koop</button>
                     </div>
                 </form>
             </section>
-        </main>
+        
         
 
         <?php include "includes/footer.php" ?>
