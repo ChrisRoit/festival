@@ -3,7 +3,6 @@
         <ul id="footer-bar">
             <li class="footer-item">
                 <ul class="footer-list">
-                    <li>Test</li>
                     <li><p><i class="fas fa-envelope-square"></i> E-Mail</p></li>
                     <li><p> <i class="fas fa-phone"></i>  Telefoon</p></li>   
         

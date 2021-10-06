@@ -1,19 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap%27');
 
+
+
+body{
+    color:white !important;
+    background-color: #72147E;
+    margin:0px !important;
+}
+
 #formulier-wrapper{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100%;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 main{
-    height:84%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    height:100%;
 }
 
 .standard-input{
     border-radius: 5px;
     width:100%;
     padding:5px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px #72147E;
+    background-color: #FF5200;
+    color:white;
+}
+
+.custom-button{
+    background-color:#FF5200;
+    padding:8px 20px 8px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight:bold;
+    border: none;
+}
+
+.custom-button:hover{
+    cursor:pointer;
+    animation: shadoweffect;
+    animation-fill-mode:forwards;
+}
+
+.custom-button:active{
+    animation: clickshadoweffect 0.1s;
+    animation-fill-mode:forwards;
+}
+
+
+.input-wrapper{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+.custom-jumbotron{
+    background-color:#FA9905;
+    border: #FF5200 solid 1px;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 150px;
+    border-radius: 25px;
+    padding: 30px;
+    transform: translateX(-50%);
+}
+
+.jumbotron-wrapper{
+    width:100%;
+}
+
+@keyframes clickshadoweffect{
+    from{
+        background-color:#b33900;
+    }
+    to{
+        background-color:#802900;
+    }
+}
+
+@keyframes shadoweffect{
+    from{
+        background-color: rgba(#FF5200,1);
+    }
+    to{
+        background-color:#b33900
+    }
 }
