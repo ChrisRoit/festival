@@ -67,6 +67,14 @@ main{
     margin-bottom:10px;
 }
 
+.square{
+    width:50%;
+}
+
+.square:after{
+    display:block;
+    padding-bottom: 100%;
+}
 
 .custom-jumbotron{
     background-color:rgba(250,153,5,0.3);
