@@ -23,6 +23,8 @@
             <div class="parallax">
                 <div class="shadow-background">
                     <div class="jumbotron-wrapper">
+                        <div class="square">
+                        <div class="content">
                         <div class="custom-jumbotron">
                             <div id="formulier-wrapper">
                                 <form action="#" method="POST">
@@ -56,6 +58,8 @@
                                 </form>
                             </div>
                         </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
             </div>
