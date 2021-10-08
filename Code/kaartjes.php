@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/kaartjes.css" />
+        <script src="js/scroll-detect.js"></script>
     </head>
     <body>
         
