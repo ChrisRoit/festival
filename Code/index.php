@@ -12,7 +12,23 @@
     </head>
     <body>
         <?php include "includes/navbar.php"; ?>
-
+        <section>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, quaerat architecto optio placeat at delectus atque nobis soluta, voluptatem voluptates reprehenderit? Eveniet a quasi alias!</p>
+            </div>
+        </section>
+        
+        <section>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla ipsum magnam, omnis ea qui? Quidem libero itaque magnam autem. Vero ipsum voluptatum aspernatur magnam.</p>
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </section>
     
         <?php include "includes/footer.php"; ?>
     </body>
