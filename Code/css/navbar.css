@@ -17,7 +17,7 @@
     z-index:1;
 }
 #main-navbar-wrapper{
-    background-color: rgba(114, 20, 126,0.5);
+    background: linear-gradient(180deg,rgba(242, 17, 112,0.5),rgba(114, 20, 126,0.4));
 }
 
 .navbar-block{
