@@ -12,9 +12,9 @@
     </head>
     <body>
         
-        <header>
+        
             <?php include "includes/navbar.php"; ?>
-        </header>
+        
         
         
         <main id="main-content">
