@@ -10,9 +10,14 @@
     display:flex;
 }
 
-
+#top-navbar{
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index:1;
+}
 #main-navbar-wrapper{
-    background: linear-gradient(45deg, #7b4397, #dc2430);
+    background-color: rgba(114, 20, 126,0.5);
 }
 
 .navbar-block{
