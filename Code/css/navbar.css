@@ -31,10 +31,10 @@
     background: linear-gradient(180deg,rgba(242, 17, 112,0.5),rgba(114, 20, 126,0.4));
     width:100%;
     height:53px;
-    opacity: 1;
+    opacity: 0;
 }
 
-/*
+
 .main-navbar-wrapper-transparent{
     animation: navbartransparent 2s;
     animation-fill-mode:forwards;
@@ -48,22 +48,22 @@
 
 @keyframes navbarnottransparent{
     from{
-        background: linear-gradient(180deg,rgba(242, 17, 112,0),rgba(114, 20, 126,0));
+        opacity:0;
     }
     to{
-        background: linear-gradient(180deg,rgba(242, 17, 112,0.5),rgba(114, 20, 126,0.4)) !important;
+        opacity:1;
     }
 }
 
 
 @keyframes navbartransparent{
     from{
-        background: linear-gradient(180deg,rgba(242, 17, 112,0.5),rgba(114, 20, 126,0.4));
+        opacity:1;
     }
     to{
-        background: linear-gradient(180deg,rgba(242, 17, 112,0),rgba(114, 20, 126,0));
+        opacity:0;
     }
-}*/
+}
 
 .navbar-block{
     flex:1;
