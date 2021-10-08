@@ -7,16 +7,20 @@
         <title>Document</title>
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="stylesheet" href="css/style.css" />
+        
         <link rel="stylesheet" href="css/kaartjes.css" />
     </head>
     <body>
+        
         <header>
             <?php include "includes/navbar.php"; ?>
         </header>
+        
+        
         <main id="main-content">
             <div class="jumbotron-wrapper">
                 <div class="custom-jumbotron">
-                    <section id="formulier-wrapper">
+                    <div id="formulier-wrapper">
                         <form action="#" method="POST">
                             <label>Naam</label>
                             <div class="input-wrapper">
@@ -46,11 +50,11 @@
                                 <button class="custom-button" type="submit">Koop</button>
                             </div>
                         </form>
-                    </section>
+                    </div>
                 </div>
             </div>
         </main>
-        
+                                
 
         <?php include "includes/footer.php" ?>
     </body>

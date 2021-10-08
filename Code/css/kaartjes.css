@@ -17,8 +17,6 @@ body{
 
 main{
     width:100%;
-    display:flex;
-    justify-content:center;
     height:100%;
 }
 
@@ -62,15 +60,19 @@ main{
     background-color:#FA9905;
     border: #FF5200 solid 1px;
     width: 50%;
-    margin-left: 50%;
-    margin-top: 150px;
+    
     border-radius: 25px;
     padding: 30px;
-    transform: translateX(-50%);
+ 
+    
 }
 
 .jumbotron-wrapper{
     width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 @keyframes clickshadoweffect{
