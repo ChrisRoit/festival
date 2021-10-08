@@ -24,42 +24,42 @@
                 <div class="shadow-background">
                     <div class="jumbotron-wrapper">
                         <div class="square">
-                        <div class="content">
-                        <div class="custom-jumbotron">
-                            <div id="formulier-wrapper">
-                                <form action="#" method="POST">
-                                    <label>Naam</label>
-                                    <div class="input-wrapper">
-                                        <input class="standard-input" type="text" name="name" autocomplete="off" required/>
-                                    </div>              
-                                    <label>Adres</label>
-                                    <div class="input-wrapper">
-                                        <input class="standard-input" type="text" name="address" autocomplete="off" required />
+                            <div class="content">
+                                <div class="custom-jumbotron">
+                                    <div id="formulier-wrapper">
+                                        <form action="#" method="POST">
+                                            <label>Naam</label>
+                                            <div class="input-wrapper">
+                                                <input class="standard-input" type="text" name="name" autocomplete="off" required/>
+                                            </div>              
+                                            <label>Adres</label>
+                                            <div class="input-wrapper">
+                                                <input class="standard-input" type="text" name="address" autocomplete="off" required />
+                                            </div>
+                                            <label>Email</label>
+                                            <div class="input-wrapper">
+                                                <input class="standard-input" type="email" name="email" autocomplete="off" required />
+                                            </div>
+                                            <label>Aantal Kaartjes</label>
+                                            <div class="input-wrapper">
+                                                <input class="standard-input" type="number" min=1 name="amount" autocomplete="off" reqruired />
+                                            </div>
+                                            <div class="input-wrapper">
+                                                <?php 
+                                                    $choices = array("vrijdag","zaterdag","beide");
+                                                    foreach($choices as $choice){
+                                                        echo "<input type='radio' name='day' value='$choice'>" . ucfirst($choice) . "</input>";
+                                                    }
+                                                ?>
+                                            </div>
+                                            <div>
+                                                <button class="custom-button" type="submit">Koop</button>
+                                            </div>
+                                        </form>
                                     </div>
-                                    <label>Email</label>
-                                    <div class="input-wrapper">
-                                        <input class="standard-input" type="email" name="email" autocomplete="off" required />
-                                    </div>
-                                    <label>Aantal Kaartjes</label>
-                                    <div class="input-wrapper">
-                                        <input class="standard-input" type="number" min=1 name="amount" autocomplete="off" reqruired />
-                                    </div>
-                                    <div class="input-wrapper">
-                                        <?php 
-                                            $choices = array("vrijdag","zaterdag","beide");
-                                            foreach($choices as $choice){
-                                                echo "<input type='radio' name='day' value='$choice'>" . ucfirst($choice) . "</input>";
-                                            }
-                                        ?>
-                                    </div>
-                                    <div>
-                                        <button class="custom-button" type="submit">Koop</button>
-                                    </div>
-                                </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    </div>
                     </div>
                 </div>
             </div>
