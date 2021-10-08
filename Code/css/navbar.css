@@ -20,6 +20,9 @@
     background: linear-gradient(180deg,rgba(242, 17, 112,0.5),rgba(114, 20, 126,0.4));
 }
 
+.main-navbar-wrapper-transparent{
+    background: none !important;
+}
 .navbar-block{
     flex:1;
 }
