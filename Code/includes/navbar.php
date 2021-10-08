@@ -15,7 +15,7 @@
     }
 ?>
 
-<div>
+<div id="top-navbar">
     <nav>
         <div id="main-navbar-wrapper" class="navbar-flex">
             <div id="main-navbar-left" class="navbar-block navbar-flex">
