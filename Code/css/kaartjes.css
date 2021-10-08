@@ -25,8 +25,13 @@ main{
     width:100%;
     padding:5px;
     box-shadow: 5px 5px 10px #72147E;
-    background-color: #F21170;
+    background-color: #FF5200;
     color:white;
+}
+
+.standard-input:focus, .standard-input:active{
+    outline:none;
+    box-shadow: 10px 10px 15px #72147E;
 }
 
 .custom-button{
@@ -57,8 +62,8 @@ main{
 
 
 .custom-jumbotron{
-    background-color: #72147E;/*#FA9905;*/
-    border: #F21170 solid 1px;
+    background-color:rgba(250,153,5,0.3);
+    border: rgba(255,82,0,0.3) solid 1px;
     width: 50%;
     
     border-radius: 25px;

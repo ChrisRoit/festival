@@ -26,19 +26,19 @@
                                 <form action="#" method="POST">
                                     <label>Naam</label>
                                     <div class="input-wrapper">
-                                        <input class="standard-input" type="text" name="name" required/>
+                                        <input class="standard-input" type="text" name="name" autocomplete="off" required/>
                                     </div>              
                                     <label>Adres</label>
                                     <div class="input-wrapper">
-                                        <input class="standard-input" type="text" name="address" required />
+                                        <input class="standard-input" type="text" name="address" autocomplete="off" required />
                                     </div>
                                     <label>Email</label>
                                     <div class="input-wrapper">
-                                        <input class="standard-input" type="email" name="email" required />
+                                        <input class="standard-input" type="email" name="email" autocomplete="off" required />
                                     </div>
                                     <label>Aantal Kaartjes</label>
                                     <div class="input-wrapper">
-                                        <input class="standard-input" type="number" min=1 name="amount" reqruired />
+                                        <input class="standard-input" type="number" min=1 name="amount" autocomplete="off" reqruired />
                                     </div>
                                     <div class="input-wrapper">
                                         <?php 
