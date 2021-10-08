@@ -1,14 +1,8 @@
 <footer>
     <div id="footer-wrapper">
-        <ul id="footer-bar">
-            <li class="footer-item">
-                <ul class="footer-list">
-                    <li><p><i class="fas fa-envelope-square"></i> E-Mail</p></li>
-                    <li><p> <i class="fas fa-phone"></i>  Telefoon</p></li>   
+        <div id="email"><i class="fa fa-envelope"></i> downthesnakehole@snake.com</div>
         
-                </ul>
-            </li>
-        </ul>
-        <div id="maker_name">MR Smith</div>
+        <div id="maker_name">Luuk/Samael/Chris</div>
+        <div id="phone"><i class="fa fa-phone"></i> +31 625473800</div>
     </div>
 </footer>
