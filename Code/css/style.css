@@ -1,5 +1,119 @@
 html,body{
     height:100%;
     margin:0px;
+    background-color: #72147E;
 }
 
+#s1{
+    margin: 40px;
+    margin-top: 80px;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#s2{
+    margin: 40px;
+    margin-top: 80px;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Division */
+section div{
+    flex:0 1 auto;
+    color:#ffffff;
+}
+
+/* Heading */
+section div h1{
+    transform:translatex(165px) translatey(165px);
+    width:76% !important;
+    font-size:55px;
+    margin-bottom:30px;
+    margin-top:30px;
+    text-transform:capitalize;
+    font-style:normal;
+    text-shadow:rgb(255, 0, 0) -1px 0px 0px, rgb(0, 255, 255) 1px 0px 0px;
+    direction:ltr;
+}
+
+/* Paragraph */
+section div p{
+    text-align:right;
+    transform:translatex(0px) translatey(117px);
+    color:#ffffff;
+    margin-top:18px !important;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:500;
+    font-size:30px;
+}
+   
+   /* Img (hover) */
+   section div img:hover{
+    display:inline-block;
+    transform:translatex(400%) translatey(0px);
+    filter:blur(4px) sepia(0.50);
+   }
+   
+   @media (max-width:768px){
+   
+    /* Section */
+    section{
+     display:inline-block !important;
+     transform:translatex(-138px) translatey(67px);
+     height:586px;
+    }
+    
+    /* Paragraph */
+    section div p{
+     width:565px;
+     transform:translatex(487px) translatey(-556px) !important;
+    }
+    
+    /* Heading */
+    section div h1{
+     transform:translatex(487px) translatey(-556px);
+     width:363px !important;
+    }
+    
+    /* Image */
+    section div:nth-child(2) img{
+     display:inline-block;
+     transform:translatex(-32px) translatey(17px) !important;
+    }
+    
+    /* Img */
+    section div .img{
+     display:inline-block;
+     transform:translatex(52px) translatey(318px) !important;
+    }
+    
+    /* Division */
+    section div{
+     transform:translatex(-72px) translatey(-80.199951171875px);
+    }
+    
+    /* Image */
+    section div img{
+     transform:translatex(-49px) translatey(17px) !important;
+    }
+    
+    /* Paragraph */
+    section div:nth-child(1) p{
+     transform:translatex(256px) translatey(60px) !important;
+    }
+    
+    /* Paragraph */
+    section div:nth-child(2) p{
+     text-align:left;
+     transform:translatex(165px) translatey(-601px) !important;
+    }
+    
+   }
+   
+   
