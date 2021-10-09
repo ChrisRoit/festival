@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap%27');
+
 .main-navbar{
     list-style-type:none;
     display:flex;
@@ -16,8 +18,53 @@
     width: 100%;
     z-index:1;
 }
+
+
 #main-navbar-wrapper{
+    position:absolute;
+    background: linear-gradient(180deg,rgba(242, 17, 112,0),rgba(114, 20, 126,0));
+    width:100%;
+    opacity: 1 !important;
+
+}
+
+#navbar-background-color{
+    position:absolute;
     background: linear-gradient(180deg,rgba(242, 17, 112,0.5),rgba(114, 20, 126,0.4));
+    width:100%;
+    height:53px;
+    opacity: 0;
+}
+
+
+.main-navbar-wrapper-transparent{
+    animation: navbartransparent 2s;
+    animation-fill-mode:forwards;
+}
+
+.main-navbar-wrapper-not-transparent{
+    animation: navbarnottransparent 2s;
+    animation-fill-mode:forwards;
+}
+
+
+@keyframes navbarnottransparent{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+
+@keyframes navbartransparent{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
 }
 
 .navbar-block{
@@ -32,7 +79,7 @@
     width:70px;
     color:white;
     text-decoration:none;
-    font-family:cursive;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .active{

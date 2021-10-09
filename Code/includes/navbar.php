@@ -17,18 +17,19 @@
 
 <div id="top-navbar">
     <nav>
-        <div id="main-navbar-wrapper" class="navbar-flex">
-            <div id="main-navbar-left" class="navbar-block navbar-flex">
-                <ul class="main-navbar navbar-flex">
-                    <li class="navbar-item navbar-flex"><a class="navbar-link navbar-flex <?php if($current_page == "home"){echo "active";} ?>" href="index.php?page=home">Home</a></li>
-                    <li class="navbar-item navbar-flex"><a class="navbar-link <?php if($current_page == "informatie"){echo "active";} ?>" href="informatie.php?page=informatie">Informatie</a></li>
-                </ul>
+        <div id="navbar-background-color"></div>
+            <div id="main-navbar-wrapper" class="navbar-flex">
+                <div id="main-navbar-left" class="navbar-block navbar-flex">
+                    <ul class="main-navbar navbar-flex">
+                        <li class="navbar-item navbar-flex"><a class="navbar-link navbar-flex <?php if($current_page == "home"){echo "active";} ?>" href="index.php?page=home">Home</a></li>
+                        <li class="navbar-item navbar-flex"><a class="navbar-link <?php if($current_page == "informatie"){echo "active";} ?>" href="informatie.php?page=informatie">Informatie</a></li>
+                    </ul>
+                </div>
+                <div id="main-navbar-right" class="navbar-block navbar-flex">
+                    <ul class="main-navbar navbar-flex">
+                        <li class="navbar-item navbar-flex"><a class="navbar-link <?php if($current_page == "kaartjes"){echo "active";} ?>" href="kaartjes.php?page=kaartjes">Kaartjes</a></li>
+                    </ul>
+                </div>
             </div>
-            <div id="main-navbar-right" class="navbar-block navbar-flex">
-                <ul class="main-navbar navbar-flex">
-                    <li class="navbar-item navbar-flex"><a class="navbar-link <?php if($current_page == "kaartjes"){echo "active";} ?>" href="kaartjes.php?page=kaartjes">Kaartjes</a></li>
-                </ul>
-            </div>
-        </div>
     </nav>
 </div>
