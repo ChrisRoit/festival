@@ -53,12 +53,12 @@ section div p{
     font-size:30px;
 }
    
-   /* Img (hover) */
+   /* Img (hover)
    section div img:hover{
     display:inline-block;
     transform:translatex(400%) translatey(0px);
     filter:blur(4px) sepia(0.50);
-   }
+   }  */
    
    @media (max-width:768px){
    
@@ -116,4 +116,64 @@ section div p{
     
    }
    
+   /* Paragraph */
+section div:nth-child(1) p{
+    text-align:left;
+   }
    
+   @media (max-width:768px){
+
+    /* Division */
+    section div{
+     transform:translatex(-18px) translatey(-64.20000000000005px);
+    }
+    
+    /* Heading */
+    section div:nth-child(1) h1{
+     transform:translatex(141px) translatey(-10px);
+    }
+    
+    /* Paragraph */
+    section div:nth-child(1) p{
+     transform:translatex(281px) translatey(-24px) !important;
+    }
+    
+   }
+   
+   @media (min-width:769px){
+   
+    /* Heading */
+    section div:nth-child(1) h1{
+     transform:translatex(75px) translatey(0px);
+     width:357px !important;
+    }
+    
+    /* Paragraph */
+    section div:nth-child(1) p{
+     width:477px;
+     transform:translatex(47px) translatey(-60px) !important;
+    }
+    
+    /* Heading */
+    section div h1{
+     transform:translatex(65px) translatey(-21px) !important;
+    }
+    
+    /* Paragraph */
+    section div p{
+     transform:translatex(39px) translatey(269px) !important;
+    }
+    
+    /* Heading */
+    section div:nth-child(2) h1{
+     width:362px !important;
+     transform:translatex(194px) translatey(298px) !important;
+    }
+    
+    /* Paragraph */
+    section div:nth-child(2) p{
+     width:497px;
+     transform:translatex(28px) translatey(262px) !important;
+    }
+    
+   }
