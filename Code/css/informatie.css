@@ -40,13 +40,15 @@ main{
 }
 
 .custom-table > tbody > tr > td{
-    border: 1px solid white;
-    width:150px;
+    border: 3px solid white;
+    width:300px;
     text-align:center;
+    font-size: 20px;
 }
 
 .table-title{
     margin-top:80px;
+    text-align: center;
 }
 
 #bottom-pixel-pusher{
