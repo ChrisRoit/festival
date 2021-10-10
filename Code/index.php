@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script type="text/javascript" src="js/scroll-detect.js"></script>
     </head>
     <body>
         <?php include "includes/navbar.php"; ?>
