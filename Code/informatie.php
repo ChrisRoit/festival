@@ -37,7 +37,7 @@
                             //zet de standaard tijd wanneer shows beginnen op 5 uur.
                             $currentTime = 17.00;
                             //echo de dag(key)
-                            echo("<h2 class='table-title'>$day</h2>");
+                            echo("<h2 class='table-title'>" . strtoupper($day) ."</h2>");
                             //echo de standaard opening html van de table en de benodigde wrappers/containers
                             echo $beginTableLayout;
                             //voor elke show naam in de show array van de dag waar we ons op bevinden.
