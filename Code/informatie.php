@@ -1,8 +1,8 @@
 <?php 
 
     //nested associative array met alle namen van de shows voor zaterdag en zondag
-    $shows = array("zaterdag" => array("16 Horsepower","2 Many DJS","3 Doors Down","30 Seconds to Mars","37 Stabwoundz","ADHD","Above & Beyond"),
-                    "zondag" => array("Admiral Freebee","Afro Celt Sound System","Alter Forever","Air Traffic","Alan Stivell","Alanis Morissette","Alien Ant Farm"));
+    $shows = array("ZATERDAG" => array("16 Horsepower","2 Many DJS","3 Doors Down","30 Seconds to Mars","37 Stabwoundz","ADHD","Above & Beyond"),
+                    "ZONDAG" => array("Admiral Freebee","Afro Celt Sound System","Alter Forever","Air Traffic","Alan Stivell","Alanis Morissette","Alien Ant Farm"));
 ?>
 
 <!DOCTYPE html>
