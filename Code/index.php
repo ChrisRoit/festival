@@ -20,18 +20,18 @@
             </div>
 
             <div>
-                <h1>Lorem, ipsum.</h1>
-                <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis itaque neque, eveniet doloribus mollitia harum ab necessitatibus est esse maiores, velit doloremque, ipsum iste?</p>
+                <h1 id="h1">Noorderfeest, Live.</h1>
+                <p id="p1">De eerste editie van het Noorderfeest Live gaat in januari van start. Het wordt een unieke ervaring. Een winterfestival met een indrukwekkende line-up. Bekende artiesten uit binnen- en buitenland treden gedurende twee dagen op. Je kan kaartjes boeken voor het hele weekend of voor 1 dag. Zie het <a href="informatie.php?page=informatie" id="Link">programma</a> voor de line-up. Dit is je kans om alsnog een festival te bezoeken dit jaar. Mis deze kans niet en bestel snel <a href=kaartjes.php?page=kaartjes id="Link">kaartjes</a>!</p>
             </div>   
         </section>
 
         <section id="s2">
             <div>
-                <h1>Lorem, ipsum.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla ipsum magnam, omnis ea qui? Quidem libero itaque magnam autem. Vero ipsum voluptatum aspernatur magnam.</p>
+                <h1 id="h2">Kamperen!</h1>
+                <p id="p2">Naast het festivalterrein hebben we een kamperterrein voor bezoekers die twee dagen blijven. Je brengt je eigen tent mee. Als je een kaartje voor twee dagen boekt dan zijn de kosten voor het kamperen inbegrepen. Op het kampeerterrein gelden de volgende regels:<br><br>    ● Geen hard drugs toegestaan!<br>    ● Vanaf 3 uur ‘s nachts moet het stil zijn<br>    ● Geen auto’s op het terrein <br>    ● Laat het terrein netjes achter alsjeblieft</p>
             </div>
             <div>
-                <img src="images/canal-boat.png" alt="boat time lol exdee">
+                <img src="images/gras_tent.jpg" alt="boat time lol exdee">
             </div>
         </section>
     

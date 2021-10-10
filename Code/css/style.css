@@ -4,6 +4,7 @@ html,body{
     background-color: #72147E;
 }
 
+/* section */
 #s1{
     margin: 40px;
     margin-top: 80px;
@@ -27,10 +28,22 @@ section div{
 }
 
 /* Heading */
-section div h1{
-    transform:translatex(165px) translatey(165px);
+#h1{
+    transform:translatex(50px) translateY(-10px);
     width:76% !important;
-    font-size:55px;
+    font-size:85px;
+    margin-bottom:30px;
+    margin-top:30px;
+    text-transform:capitalize;
+    font-style:normal;
+    text-shadow:rgb(255, 0, 0) -1px 0px 0px, rgb(0, 255, 255) 1px 0px 0px;
+    direction:ltr;
+}
+
+#h2{
+    transform:translatex(10px) translateY(-10px);
+    width:76% !important;
+    font-size:85px;
     margin-bottom:30px;
     margin-top:30px;
     text-transform:capitalize;
@@ -40,9 +53,9 @@ section div h1{
 }
 
 /* Paragraph */
-section div p{
+#p1{
     text-align:right;
-    transform:translatex(0px) translatey(117px);
+    transform:translatex(0px) translatey(-20px);
     color:#ffffff;
     margin-top:18px !important;
     padding-left:20px;
@@ -52,128 +65,21 @@ section div p{
     font-weight:500;
     font-size:30px;
 }
-   
-   /* Img (hover)
-   section div img:hover{
-    display:inline-block;
-    transform:translatex(400%) translatey(0px);
-    filter:blur(4px) sepia(0.50);
-   }  */
-   
-   @media (max-width:768px){
-   
-    /* Section */
-    section{
-     display:inline-block !important;
-     transform:translatex(-138px) translatey(67px);
-     height:586px;
-    }
-    
-    /* Paragraph */
-    section div p{
-     width:565px;
-     transform:translatex(487px) translatey(-556px) !important;
-    }
-    
-    /* Heading */
-    section div h1{
-     transform:translatex(487px) translatey(-556px);
-     width:363px !important;
-    }
-    
-    /* Image */
-    section div:nth-child(2) img{
-     display:inline-block;
-     transform:translatex(-32px) translatey(17px) !important;
-    }
-    
-    /* Img */
-    section div .img{
-     display:inline-block;
-     transform:translatex(52px) translatey(318px) !important;
-    }
-    
-    /* Division */
-    section div{
-     transform:translatex(-72px) translatey(-80.199951171875px);
-    }
-    
-    /* Image */
-    section div img{
-     transform:translatex(-49px) translatey(17px) !important;
-    }
-    
-    /* Paragraph */
-    section div:nth-child(1) p{
-     transform:translatex(256px) translatey(60px) !important;
-    }
-    
-    /* Paragraph */
-    section div:nth-child(2) p{
-     text-align:left;
-     transform:translatex(165px) translatey(-601px) !important;
-    }
-    
-   }
-   
-   /* Paragraph */
-section div:nth-child(1) p{
-    text-align:left;
-   }
-   
-   @media (max-width:768px){
 
-    /* Division */
-    section div{
-     transform:translatex(-18px) translatey(-64.20000000000005px);
-    }
-    
-    /* Heading */
-    section div:nth-child(1) h1{
-     transform:translatex(141px) translatey(-10px);
-    }
-    
-    /* Paragraph */
-    section div:nth-child(1) p{
-     transform:translatex(281px) translatey(-24px) !important;
-    }
-    
-   }
-   
-   @media (min-width:769px){
-   
-    /* Heading */
-    section div:nth-child(1) h1{
-     transform:translatex(75px) translatey(0px);
-     width:357px !important;
-    }
-    
-    /* Paragraph */
-    section div:nth-child(1) p{
-     width:477px;
-     transform:translatex(47px) translatey(-60px) !important;
-    }
-    
-    /* Heading */
-    section div h1{
-     transform:translatex(65px) translatey(-21px) !important;
-    }
-    
-    /* Paragraph */
-    section div p{
-     transform:translatex(39px) translatey(269px) !important;
-    }
-    
-    /* Heading */
-    section div:nth-child(2) h1{
-     width:362px !important;
-     transform:translatex(194px) translatey(298px) !important;
-    }
-    
-    /* Paragraph */
-    section div:nth-child(2) p{
-     width:497px;
-     transform:translatex(28px) translatey(262px) !important;
-    }
-    
-   }
+#p2{
+    text-align:left;
+    transform:translatex(0px) translatey(-40px);
+    color:#ffffff;
+    margin-top:18px !important;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:500;
+    font-size:30px;
+}
+
+#Link{
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+}
